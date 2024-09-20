@@ -13,3 +13,7 @@ resource "random_string" "test" {
 resource "random_string" "test1" {
   length = 16
 }
+
+output "value" {
+  value = random_string.test.length
+}
