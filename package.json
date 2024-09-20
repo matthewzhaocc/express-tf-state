@@ -1,0 +1,26 @@
+{
+  "name": "express-tf-state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "drive": "node dist/driver.js"
+  },
+  "keywords": [],
+  "author": "Matthew Zhao <matthewzhaocc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "express": "*"
+  },
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
